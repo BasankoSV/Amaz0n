@@ -38,3 +38,7 @@
 body {
   position: relative;
 }
+
+.container {
+  width: 1176px;
+}
