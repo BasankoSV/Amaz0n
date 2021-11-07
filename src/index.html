@@ -13,39 +13,189 @@
       <a href="#">
         <img src="img/burger-menu.svg" alt="Burger-menu">
       </a>
-      <div class="container menu">
-        <div class="logo">
-          <img src="img/logo.svg" alt="Logo">
+    </div>
+    <div class="container menu">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <div class="search-bar">
+        <div class="search-bar__category">
+          <select name="category" class="select-category">
+            <option value="all" selected >All</option>
+            <option value="automtive">Automtive</option>
+            <option value="baby">Baby</option>
+            <option value="beauty-personal-care">Beauty & Personal care</option>
+            <option value="womens-fashion">Women’s Fashion</option>
+            <option value="mens-fashion">Men’s Fashion</option>
+            <option value="health-household">Health & Household</option>
+            <option value="home-kitchen">Home & Kitchen</option>
+            <option value="pet-supplies">Pet Supplies</option>
+            <option value="movies-television">Movies & Television</option>
+            <option value="luggage">Luggage</option>
+          </select>
         </div>
-        <div class="search-bar">
-          <div class="search-bar__category">
-            <span class="choice-category">All А не select ли?</span>
+        <input type="text" class="search-bar__string" placeholder="Search Mobiles, TV, Laptops,Tablets, Beauty & Personal Care etc.">
+        <button class="search-bar__button">
+          <img src="img/search-button.png" alt="Search button">
+        </button>
+      </div>
+      <div class="heart-bag">
+        <a class="heart-bag__heart" href="#">
+          <img src="img/heart.svg" alt="Heart">
+        </a>
+        <a class="heart-bag__bag" href="#">
+          <img src="img/shopping-bag.png" alt="Bag">
+        </a>
+      </div>
+      <div class="location">
+        <a class="location__image" href="#">
+          <img src="img/carbon-location.svg" alt="Location">
+        </a>
+        <a class="location__place" href="#">
+          <span>Pakistan</span>
+        </a>
+      </div>
+      <button class="login">Login</button>
+    </div>
+  </header>
+  <section class="promo container">
+    <button class="promo__arrow-left" data-arrow="left">
+      <img src="img/arrow.svg" alt="Arrow Left">
+    </button>
+    <button class="promo__arrow-right" data-arrow="right">
+      <img src="img/arrow.svg" alt="Arrow Right">
+    </button>
+    <div class="promo__text">
+      <span class="name-model">SONY WH-H910N</span>
+      <h1 class="title">Best in Hi-Res and Noise Cancelling</h1>
+      <span class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, est enim mauris dolor ultrices mi ipsum risus. Adipiscing consequat, bibendum fringilla dolor ornare. Turpis sit egestas condimentum tincidunt lobortis donec massa ultricies. Urna, cursus eleifend neque ut nibh est.
+      </span>
+      <div class="buttons-wrapper">
+        <button class="buy">Buy now for $129</button>
+        <button class="learn">Learn more</button>
+      </div>
+    </div>
+    <div class="promo__image">
+      <img src="img/headphones.jpg" alt="Headphones">
+    </div>
+  </section>
+  <section class="categories container">
+    <div class="wrapper-title">
+      <div class="title">Select Categories</div>
+      <a href="#" class="see-all">See All</a>
+    </div>
+    <div class="categories__wrapper-items">
+      <div class="categories__item">
+        <img src="img/automtive.png" alt="Automtive" class="icon">
+        <span class="name">Automtive</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/baby.png" alt="Baby" class="icon">
+        <span class="name">Baby</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/beauty-personal-care.png" alt="Beauty" class="icon">
+        <span class="name">Beauty & Personal care</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/womens-fashion.png" alt="Womens" class="icon">
+        <span class="name">Women’s Fashion</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/mens-fashion.png" alt="Mens" class="icon">
+        <span class="name">Men’s<br>Fashion</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/health-household.png" alt="Health" class="icon">
+        <span class="name">Health & Household</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/home-kitchen.png" alt="Home & Kitchen" class="icon">
+        <span class="name">Home &<br>Kitchen</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/pet-supplies.png" alt="Pet Supplies" class="icon">
+        <span class="name">Pet Supplies</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/movies-television.png" alt="Movies" class="icon">
+        <span class="name">Movies & Television</span>
+      </div>
+      <div class="categories__item">
+        <img src="img/luggage.png" alt="Luggage" class="icon">
+        <span class="name">Luggage</span>
+      </div>
+    </div>
+  </section>
+  <section class="bestseller container">
+    <div class="wrapper-title">
+      <div class="title">Best Seller Products</div>
+      <a href="#" class="see-all">See All</a>
+    </div>
+    <div class="bestseller__wrapper-card">
+      <div class="bestseller__card">
+        <img src="img/watch.png" alt="Watch">
+        <div class="categories">Men Fashion</div>
+        <div class="name">Android Watch 5 2021</div>
+        <div class="price-rating">
+          <div class="price"><span>$1,245.00</span></div>
+          <div class="rating">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-half.png" alt="star">
           </div>
-          <input type="text" class="search-bar__string">
-          <button class="search-bar__button">
-            <img src="img/search-button.png" alt="Search button">
-          </button>
-          <div class="heart-bag">
-            <a class="heart-bag__heart" href="#">
-              <img src="img/heart.svg" alt="Heart">
-            </a>
-            <a class="heart-bag__bag" href="#">
-              <img src="img/shopping-bag.svg" alt="Bag">
-            </a>
+        </div>
+      </div>
+      <div class="bestseller__card">
+        <img src="img/phone.png" alt="phone">
+        <div class="categories">Mobiles</div>
+        <div class="name">Samsung A51</div>
+        <div class="price-rating">
+          <div class="price"><span>$2,640.00</span></div>
+          <div class="rating">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-half.png" alt="star">
           </div>
-          <div class="location">
-            <a class="location__image" href="#">
-              <img src="img/carbon-location.svg" alt="Location">
-            </a>
-            <a class="location__place" href="#">
-              <p>Pakistan</p>
-            </a>
+        </div>
+      </div>
+      <div class="bestseller__card">
+        <img src="img/airpods.png" alt="AirPodsPro">
+        <div class="categories">Mobiles Accessories</div>
+        <div class="name">Apple Airpods Pro</div>
+        <div class="price-rating">
+          <div class="price"><span>$3,990.00</span></div>
+          <div class="rating">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
           </div>
-          <button class="login">Login</button>
+        </div>
+      </div>
+      <div class="bestseller__card">
+        <img src="img/suitcases.png" alt="Luggage">
+        <div class="categories">Luggage</div>
+        <div class="name">X-Tralight 2.0 Softside Spinner</div>
+        <div class="price-rating">
+          <div class="price"><span>$1,990.00</span></div>
+          <div class="rating">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-fill.png" alt="star">
+            <img src="img/star-half.png" alt="star">
+          </div>
         </div>
       </div>
     </div>
-  </header>
+  </section>
   <script src="js/script.min.js"></script>
 </body>
 </html>

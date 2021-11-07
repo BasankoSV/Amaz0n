@@ -1,0 +1,80 @@
+%button
+  width: 124px
+  height: 32px
+  font-style: normal
+  font-weight: 500
+  font-size: 12px
+  line-height: 14px
+  cursor: pointer
+%arrow
+  margin: 0
+  padding: 0
+  position: absolute
+  top: 192px
+  width: 48px
+  height: 48px
+  background: #FFFFFF
+  box-shadow: 0px 6px 24px rgba(35, 47, 62, 0.08)
+  border-radius: 30px
+  border: none
+  cursor: pointer
+  img
+      display: block
+      padding-left: 13px
+      
+.promo
+  position: relative
+  height: 450px
+  font-family: Roboto
+  font-style: normal
+  display: flex
+  background: rgba(242, 242, 242, 0.4)
+  &__arrow-left
+    @extend %arrow
+    left: -24px
+  &__arrow-right
+    @extend %arrow
+    right: -24px
+    transform: rotate(180deg)
+  &__text
+    display: flex
+    flex-direction: column
+    justify-content: start
+    margin: 79px 176px 79px 56px
+    .name-model
+      font-weight: 500
+      font-size: 14px
+      line-height: 16px
+      color: #FF9900
+  .title
+    max-width: 444px
+    margin: 16px 0px
+    font-family: Poppins
+    font-style: normal
+    font-weight: 600
+    font-size: 48px
+    line-height: 58px
+    color: #000000
+  .description
+    max-width: 440px
+    max-height: 80px
+    font-weight: normal
+    font-size: 12px
+    line-height: 20px
+    color: rgba(35, 47, 62, 0.48)
+  .buttons-wrapper
+    margin-top: 16px
+    .buy
+      @extend %button
+      background: #146EB4
+      color: #FFFFFF
+      border: none
+    .learn
+      @extend %button
+      background: #FFFFFF
+      border: 1px solid #146EB4
+      color: #146EB4
+      margin-left: 12px
+  &__image
+    margin-top: 9px
+  
