@@ -84,6 +84,7 @@
 }
 
 .header .menu {
+  max-width: 1176px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -389,6 +390,9 @@
   background: #fff;
   -webkit-box-shadow: 5px 5px 52px rgba(35, 47, 62, 0.16);
           box-shadow: 5px 5px 52px rgba(35, 47, 62, 0.16);
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
 }
 
 .bestseller {
@@ -423,22 +427,46 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 279px;
   height: 360px;
   background: rgba(242, 242, 242, 0.4);
-  padding-top: 38px;
+}
+
+.bestseller__card:hover {
+  height: 400px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 5px 52px rgba(35, 47, 62, 0.16);
+          box-shadow: 5px 5px 52px rgba(35, 47, 62, 0.16);
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+}
+
+.bestseller__card:hover .categories {
+  margin-top: 24px;
+}
+
+.bestseller__card:hover .add-to-cart {
+  display: block;
+}
+
+.bestseller__card:hover .quick-view {
+  display: block;
+}
+
+.bestseller__card .card-image {
+  display: block;
+  margin-top: 38px;
+  width: 200px;
+  height: 200px;
 }
 
 .bestseller__card .categories {
-  margin-top: 47px;
+  margin-top: 34px;
   margin-left: 16px;
-  margin-bottom: 8px;
   -ms-flex-item-align: start;
       align-self: flex-start;
   font-size: 13px;
@@ -447,6 +475,7 @@
 }
 
 .bestseller__card .name {
+  margin-top: 8px;
   font-weight: bold;
   font-size: 15px;
   line-height: 16px;
@@ -474,6 +503,38 @@
   color: #146EB4;
 }
 
+.bestseller__card .buttons-wrapper {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bestseller__card .buttons-wrapper button {
+  margin-top: 7px;
+  width: 116px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.bestseller__card .buttons-wrapper .add-to-cart {
+  background: #146EB4;
+  color: #fff;
+  border: none;
+}
+
+.bestseller__card .buttons-wrapper .quick-view {
+  background: #fff;
+  border: 1px solid #146EB4;
+  color: #146EB4;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -488,4 +549,8 @@ body {
 .container {
   width: 1176px;
   margin: 0 132px;
+}
+
+.hide {
+  display: none;
 }
