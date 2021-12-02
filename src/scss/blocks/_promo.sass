@@ -1,0 +1,67 @@
+%button
+  width: 124px
+  height: 32px
+  font-style: normal
+  font-weight: 500
+  font-size: 12px
+  line-height: 14px
+  cursor: pointer
+
+.promo
+  overflow: hidden
+  position: relative
+  height: 450px
+  font-family: Roboto
+  font-style: normal
+  background: rgba(242, 242, 242, 0.4)
+  .carousel-wrapper
+    display: flex
+    position: absolute // они все сразу в одном месте!
+    top: 0 //
+    left: 0 //
+    // transform: translate(0, 0)
+    // transition: all 1s ease 1s
+    .text-block
+      display: flex
+      flex-direction: column
+      justify-content: start
+      margin: 79px 176px 79px 56px
+      .model
+        font-weight: 500
+        font-size: 14px
+        line-height: 16px
+        color: #FF9900
+      .title
+        max-width: 444px
+        margin: 16px 0px
+        font-family: Poppins
+        font-style: normal
+        font-weight: 600
+        font-size: 48px
+        line-height: 58px
+        color: #000000
+      .description
+        max-width: 440px
+        max-height: 80px
+        font-weight: normal
+        font-size: 12px
+        line-height: 20px
+        color: rgba(35, 47, 62, 0.48)
+      .buttons-wrapper
+        margin-top: 16px
+        .buy
+          @extend %button
+          background: #146EB4
+          color: #FFFFFF
+          border: none
+        .learn
+          @extend %button
+          background: #FFFFFF
+          border: 1px solid #146EB4
+          color: #146EB4
+          margin-left: 12px
+    .image-block
+      margin-top: 9px
+  // .anim
+    // transform: translate(-120%, 0px)
+    // transition: all 1s ease 1s

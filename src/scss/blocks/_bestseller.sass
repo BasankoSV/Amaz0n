@@ -1,0 +1,87 @@
+.bestseller
+  font-family: Roboto
+  font-style: normal
+  font-weight: normal
+  .wrapper-title
+    @extend %wrapper-title
+    margin-bottom: 20px
+  .title
+    @extend %title
+  .see-all
+    @extend %link
+  &__wrapper-card
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 100px
+    height: 400px
+  &__card
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 279px
+    height: 360px
+    background: rgba(242, 242, 242, 0.4)
+    &:hover
+      height: 400px
+      background: #FFFFFF
+      box-shadow: 5px 5px 52px rgba(35, 47, 62, 0.16)
+      transition: height .5s
+      .categories
+        margin-top: 24px
+      .add-to-cart
+        display: block
+      .quick-view
+        display: block
+    .card-image
+      display: block
+      margin-top: 38px
+      width: 200px
+      height: 200px
+    .categories
+      margin-top: 34px
+      margin-left: 16px
+      align-self: flex-start
+      font-size: 13px
+      line-height: 16px
+      color: rgba(35, 47, 62, 0.48)
+    .name
+      margin-top: 8px
+      font-weight: bold
+      font-size: 15px
+      line-height: 16px
+      color: #000000
+      margin-left: 16px
+      align-self: flex-start
+    .price-rating
+      width: 88%
+      margin: 8px 16px
+      display: flex
+      justify-content: space-between
+      .price
+        span
+          font-weight: 500
+          font-size: 13px
+          line-height: 16px
+          color: #146EB4
+    .buttons-wrapper
+      width: 88%
+      display: flex
+      justify-content: space-between
+      button
+        display: none
+        margin-top: 7px
+        width: 116px
+        height: 32px
+        font-weight: 500
+        font-size: 12px
+        line-height: 14px
+        cursor: pointer
+      .add-to-cart
+        background: #146EB4
+        color: #fff
+        border: none
+      .quick-view
+        background: #fff
+        border: 1px solid #146EB4
+        color: #146EB4
