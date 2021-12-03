@@ -1,11 +1,4 @@
 (function (factory) {
-<<<<<<< HEAD
-	typeof define === 'function' && define.amd ? define('script', factory) :
-	factory();
-}((function () { 'use strict';
-
-	console.log('Amazon, script.js');
-=======
   typeof define === 'function' && define.amd ? define('script', factory) :
   factory();
 }((function () { 'use strict';
@@ -49,6 +42,5 @@
   };
   arrowLeft.addEventListener('click', carousel.currentChange.bind(carousel, 'left'));
   arrowRight.addEventListener('click', carousel.currentChange.bind(carousel, 'right'));
->>>>>>> master
 
 })));

@@ -66,8 +66,6 @@
   background: rgba(242, 242, 242, 0.48);
 }
 
-<<<<<<< HEAD
-=======
 .header .arrow-right,
 .header .arrow-left {
   margin: 0;
@@ -91,7 +89,6 @@
   padding-left: 13px;
 }
 
->>>>>>> master
 .header {
   position: relative;
   display: -webkit-box;
@@ -243,12 +240,6 @@
   line-height: 14px;
   color: #FFFFFF;
   border: none;
-<<<<<<< HEAD
-}
-
-.promo .buttons-wrapper .learn,
-.promo .buttons-wrapper .buy {
-=======
   cursor: pointer;
 }
 
@@ -265,7 +256,6 @@
 
 .promo .carousel-wrapper .text-block .buttons-wrapper .learn,
 .promo .carousel-wrapper .text-block .buttons-wrapper .buy {
->>>>>>> master
   width: 124px;
   height: 32px;
   font-style: normal;
@@ -275,58 +265,12 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.promo__arrow-right,
-.promo__arrow-left {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 192px;
-  width: 48px;
-  height: 48px;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 6px 24px rgba(35, 47, 62, 0.08);
-          box-shadow: 0px 6px 24px rgba(35, 47, 62, 0.08);
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-}
-
-.promo__arrow-right img,
-.promo__arrow-left img {
-  display: block;
-  padding-left: 13px;
-}
-
-.promo {
-=======
 .promo {
   overflow: hidden;
->>>>>>> master
   position: relative;
   height: 450px;
   font-family: Roboto;
   font-style: normal;
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: rgba(242, 242, 242, 0.4);
-}
-
-.promo__arrow-left {
-  left: -24px;
-}
-
-.promo__arrow-right {
-  right: -24px;
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
-.promo__text {
-=======
   background: rgba(242, 242, 242, 0.4);
 }
 
@@ -340,7 +284,6 @@
 }
 
 .promo .carousel-wrapper .text-block {
->>>>>>> master
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -354,22 +297,14 @@
   margin: 79px 176px 79px 56px;
 }
 
-<<<<<<< HEAD
-.promo__text .name-model {
-=======
 .promo .carousel-wrapper .text-block .model {
->>>>>>> master
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #FF9900;
 }
 
-<<<<<<< HEAD
-.promo .title {
-=======
 .promo .carousel-wrapper .text-block .title {
->>>>>>> master
   max-width: 444px;
   margin: 16px 0px;
   font-family: Poppins;
@@ -380,11 +315,7 @@
   color: #000000;
 }
 
-<<<<<<< HEAD
-.promo .description {
-=======
 .promo .carousel-wrapper .text-block .description {
->>>>>>> master
   max-width: 440px;
   max-height: 80px;
   font-weight: normal;
@@ -393,40 +324,24 @@
   color: rgba(35, 47, 62, 0.48);
 }
 
-<<<<<<< HEAD
-.promo .buttons-wrapper {
-  margin-top: 16px;
-}
-
-.promo .buttons-wrapper .buy {
-=======
 .promo .carousel-wrapper .text-block .buttons-wrapper {
   margin-top: 16px;
 }
 
 .promo .carousel-wrapper .text-block .buttons-wrapper .buy {
->>>>>>> master
   background: #146EB4;
   color: #FFFFFF;
   border: none;
 }
 
-<<<<<<< HEAD
-.promo .buttons-wrapper .learn {
-=======
 .promo .carousel-wrapper .text-block .buttons-wrapper .learn {
->>>>>>> master
   background: #FFFFFF;
   border: 1px solid #146EB4;
   color: #146EB4;
   margin-left: 12px;
 }
 
-<<<<<<< HEAD
-.promo__image {
-=======
 .promo .carousel-wrapper .image-block {
->>>>>>> master
   margin-top: 9px;
 }
 
@@ -608,10 +523,7 @@
 }
 
 .bestseller__card .buttons-wrapper button {
-<<<<<<< HEAD
-=======
   display: none;
->>>>>>> master
   margin-top: 7px;
   width: 116px;
   height: 32px;
@@ -650,9 +562,6 @@ body {
 }
 
 .hide {
-<<<<<<< HEAD
-  display: none;
-=======
   display: none !important;
 }
 
@@ -682,5 +591,4 @@ body {
   -webkit-transition: all 1.5s ease 1.5s;
   -o-transition: all 1.5s ease 1.5s;
   transition: all 1.5s ease 1.5s;
->>>>>>> master
 }
