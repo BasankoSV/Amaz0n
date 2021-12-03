@@ -1,0 +1,5 @@
+{
+    "editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange"
+}
