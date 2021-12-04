@@ -16,9 +16,9 @@
   background: rgba(242, 242, 242, 0.4)
   .carousel-wrapper
     display: flex
-    position: absolute // они все сразу в одном месте!
-    top: 0 //
-    left: 0 //
+    position: absolute
+    top: 0
+    left: 0
     .text-block
       display: flex
       flex-direction: column
@@ -40,13 +40,15 @@
         color: #000000
       .description
         max-width: 440px
-        max-height: 80px
         font-weight: normal
         font-size: 12px
         line-height: 20px
         color: rgba(35, 47, 62, 0.48)
       .buttons-wrapper
         margin-top: 16px
+        display: flex
+        justify-content: start
+        align-items: center
         .buy
           @extend %button
           background: #146EB4

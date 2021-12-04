@@ -17,15 +17,17 @@ const carousel = {
         this.carouselWrapper[current].style = 'transform: translate(120%, 0); transition: transform 1.5s ease 1.5s;'
         current++
         (current === this.carouselWrapper.length) ? current = 0 : current
+        this.carouselWrapper[current].style = 'transform: translate(-120%, 0);'
         break
       case 'left':
         this.carouselWrapper[current].style = 'transform: translate(-120%, 0); transition: all 1.5s ease 1.5s'
         current--
         (current < 0) ? current = this.carouselWrapper.length - 1 : current
+        this.carouselWrapper[current].style = 'transform: translate(120%, 0);'
         break
     }
-    this.carouselWrapper[current].style = 'transform: translate(0, 0); transition: all 1.8s ease 1.8s;'
-    setTimeout(() => { this.carouselWrapper[prev].style = 'transform: translate(0, 0); opacity: 0;' }, 3000)
+    setTimeout(() => { this.carouselWrapper[current].style = 'transform: translate(0, 0); transition: all 1.5s ease 1.5s;' }, 1)
+    setTimeout(() => { this.carouselWrapper[prev].style = 'transform: translate(0, 0); opacity: 0;' }, 2500)
     this.carouselWrapper[current].setAttribute('data-current', '1')
   },
 }
