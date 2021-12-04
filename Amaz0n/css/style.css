@@ -248,7 +248,7 @@
 }
 
 .header .arrow-right {
-  right: 1228px;
+  left: 1284px;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -559,36 +559,4 @@ body {
 .container {
   width: 1176px;
   margin: 0 132px;
-}
-
-.hide {
-  display: none !important;
-}
-
-.pos-left {
-  position: absolute;
-  left: -2000px !important;
-}
-
-.pos-right {
-  left: 100% !important;
-  opacity: 0;
-}
-
-.pos-right .transform-to-left {
-  -webkit-transform: translate(-120%, 0);
-      -ms-transform: translate(-120%, 0);
-          transform: translate(-120%, 0);
-  -webkit-transition: all 1.5s ease 1.5s;
-  -o-transition: all 1.5s ease 1.5s;
-  transition: all 1.5s ease 1.5s;
-}
-
-.pos-right .transform-to-zero {
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-  -webkit-transition: all 1.5s ease 1.5s;
-  -o-transition: all 1.5s ease 1.5s;
-  transition: all 1.5s ease 1.5s;
 }
