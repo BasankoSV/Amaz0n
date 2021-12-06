@@ -21,15 +21,15 @@
       switch (direction) {
         case 'left':
           this.carouselWrapper[current].style = 'transform: translate(120%, 0); transition: transform 1s ease 1s;';
-          current++;
-          current === this.carouselWrapper.length ? current = 0 : current;
+          current--;
+          current < 0 ? current = this.carouselWrapper.length - 1 : current;
           this.carouselWrapper[current].style = 'transform: translate(-120%, 0);';
           break;
 
         case 'right':
           this.carouselWrapper[current].style = 'transform: translate(-120%, 0); transition: all 1s ease 1s';
-          current--;
-          current < 0 ? current = this.carouselWrapper.length - 1 : current;
+          current++;
+          current === this.carouselWrapper.length ? current = 0 : current;
           this.carouselWrapper[current].style = 'transform: translate(120%, 0);';
           break;
       }
